@@ -31,6 +31,7 @@ function missionTwo(){
 }
 missionTwo(numberArr);
 console.log(numberArr);
+
 // Mission 3:
 // Team Member: Abby
 
