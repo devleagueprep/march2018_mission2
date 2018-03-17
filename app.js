@@ -42,8 +42,14 @@ var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
 // @return {Array}
 
 var nihongo = ["shinjirarenai", "hisashiburi", "otsukaresama", "itadakemasu", "homma"];
-
-
+var miku = [];
+function homura(hikari, miku){
+  for(var i=1; i<hikari.length; i++){
+  hikari = miku.toString();
+  }
+}
+homura(nihongo, miku);
+console.log(nihongo, miku);
 
 
 
