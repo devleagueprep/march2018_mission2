@@ -13,6 +13,17 @@ This repo will self-destruct in five seconds. Good luck (again)!!*/
 
 var num = [1,2,3,4,5,6,8,9,10,12,14,16,18];
 
+function sumOfAll(arr){
+  for (var i=1; i < arr.length; i++){
+    if (i %2 === 0){
+      var add = i + i++;
+      console.log(add);
+    }
+  }
+}
+
+console.log(sumOfAll(num));
+
 // Mission 2: 
 // Team Member: Alavi
 
