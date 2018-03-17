@@ -32,7 +32,20 @@ var numberArr = [10, 20, 30];
 // @return {Array}
 
 var calendar = [["Jan", "MLK Day"], ["Feb", "Pres. Day"], ["Mar", "Good Fri"]];
+var newCalendar = [];
+function joinArr(arr){
+	for(i = 0; i < arr.length; i++){
+		//console.log(calendar[i]);
+		for (var j = 0; j < arr[i].length; j++){
+			//arr.push(arr[i][j]);
+			//return arr;
+			newCalendar.push(arr[i][j]);
+		}
 
+	}
+}
+joinArr(calendar);
+console.log(newCalendar);
 // Mission 4:
 // Team Member: Mckarl
 
