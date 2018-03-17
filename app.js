@@ -23,6 +23,15 @@ var num = [1,2,3,4,5,6,8,9,10,12,14,16,18];
 
 var numberArr = [10, 20, 30];
 
+function missionTwo(){
+  for (var i=0;i<numberArr.length; i++){
+    numberArr[i]/=2;
+    numberArr.push();
+  }
+}
+missionTwo(numberArr);
+console.log(numberArr);
+
 // Mission 3:
 // Team Member: Abby
 
